@@ -1,0 +1,307 @@
+databaseChangeLog:
+  - logicalFilePath: db/changelog/db.changelog-lesson-2.yaml
+  - changeSet:
+      author: nastya_chendyreva (generated)
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    primaryKeyName: brandsPK
+                  name: id
+                  type: BIGINT
+              - column:
+                  constraints:
+                    nullable: false
+                  name: name
+                  type: VARCHAR(255)
+            tableName: brands
+  - changeSet:
+      author: nastya_chendyreva (generated)
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    primaryKeyName: categoriesPK
+                  name: id
+                  type: BIGINT
+              - column:
+                  constraints:
+                    nullable: false
+                  name: name
+                  type: VARCHAR(255)
+            tableName: categories
+  - changeSet:
+      author: nastya_chendyreva (generated)
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    primaryKeyName: picturesPK
+                  name: id
+                  type: BIGINT
+              - column:
+                  constraints:
+                    nullable: false
+                  name: content_type
+                  type: VARCHAR(255)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: name
+                  type: VARCHAR(255)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: picture_data_id
+                  type: BIGINT
+            tableName: pictures
+  - changeSet:
+      author: nastya_chendyreva (generated)
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    primaryKeyName: pictures_dataPK
+                  name: id
+                  type: BIGINT
+              - column:
+                  constraints:
+                    nullable: false
+                  name: data
+                  type: MEDIUMBLOB
+            tableName: pictures_data
+  - changeSet:
+      author: nastya_chendyreva (generated)
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    primaryKeyName: productsPK
+                  name: id
+                  type: BIGINT
+              - column:
+                  constraints:
+                    nullable: false
+                  name: name
+                  type: VARCHAR(255)
+              - column:
+                  name: price
+                  type: DECIMAL(19, 2)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: brand_id
+                  type: BIGINT
+            tableName: products
+  - changeSet:
+      author: nastya_chendyreva (generated)
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                  name: product_id
+                  type: BIGINT
+              - column:
+                  constraints:
+                    nullable: false
+                  name: category_id
+                  type: BIGINT
+            tableName: products_categories
+  - changeSet:
+      author: nastya_chendyreva (generated)
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                  name: product_id
+                  type: BIGINT
+              - column:
+                  constraints:
+                    nullable: false
+                  name: picture_id
+                  type: BIGINT
+            tableName: products_pictures
+  - changeSet:
+      author: nastya_chendyreva (generated)
+      changes:
+        - addPrimaryKey:
+            columnNames: product_id, category_id
+            tableName: products_categories
+  - changeSet:
+      author: nastya_chendyreva (generated)
+      changes:
+        - addUniqueConstraint:
+            columnNames: name
+            constraintName: UC_BRANDSNAME_COL
+            tableName: brands
+  - changeSet:
+      author: nastya_chendyreva (generated)
+      changes:
+        - addUniqueConstraint:
+            columnNames: name
+            constraintName: UC_CATEGORIESNAME_COL
+            tableName: categories
+  - changeSet:
+      author: nastya_chendyreva (generated)
+      changes:
+        - addUniqueConstraint:
+            columnNames: picture_data_id
+            constraintName: UK_ehsu2tyinopypjox1ijxt3g3c
+            tableName: pictures
+  - changeSet:
+      author: nastya_chendyreva (generated)
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: brand_id
+            baseTableName: products
+            constraintName: FKa3a4mpsfdf4d2y6r8ra3sc8mv
+            deferrable: false
+            initiallyDeferred: false
+            referencedColumnNames: id
+            referencedTableName: brands
+  - changeSet:
+      author: nastya_chendyreva (generated)
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: picture_data_id
+            baseTableName: pictures
+            constraintName: FKe9cv52k04xoy6cj8xy308gnw3
+            deferrable: false
+            initiallyDeferred: false
+            referencedColumnNames: id
+            referencedTableName: pictures_data
+  - changeSet:
+      author: nastya_chendyreva (generated)
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: product_id
+            baseTableName: products_pictures
+            constraintName: FKh3amnci4cl7xcl1al140xw79e
+            deferrable: false
+            initiallyDeferred: false
+            referencedColumnNames: id
+            referencedTableName: products
+  - changeSet:
+      author: nastya_chendyreva (generated)
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: picture_id
+            baseTableName: products_pictures
+            constraintName: FKloucf8ggy74nmdej2jmvttvi4
+            deferrable: false
+            initiallyDeferred: false
+            referencedColumnNames: id
+            referencedTableName: pictures
+  - changeSet:
+      author: nastya_chendyreva (generated)
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: category_id
+            baseTableName: products_categories
+            constraintName: FKqt6m2o5dly3luqcm00f5t4h2p
+            deferrable: false
+            initiallyDeferred: false
+            referencedColumnNames: id
+            referencedTableName: categories
+  - changeSet:
+      author: nastya_chendyreva (generated)
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: product_id
+            baseTableName: products_categories
+            constraintName: FKtj1vdea8qwerbjqie4xldl1el
+            deferrable: false
+            initiallyDeferred: false
+            referencedColumnNames: id
+            referencedTableName: products
+
+  - changeSet:
+      author: nastya_chendyreva
+      comment: "Insert default categories"
+      changes:
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Hot Deals"
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Headphones"
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Laptops"
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Smartphones"
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Tablets"
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Cameras"
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Accessories"
+      rollback:
+
+  - changeSet:
+      author: nastya_chendyreva
+      comment: "Insert default brands"
+      changes:
+        - insert:
+            tableName: brands
+            columns:
+              - column:
+                  name: name
+                  value: "Nikon"
+        - insert:
+            tableName: brands
+            columns:
+              - column:
+                  name: name
+                  value: "Apple"
+        - insert:
+            tableName: brands
+            columns:
+              - column:
+                  name: name
+                  value: "Htc"
+      rollback:

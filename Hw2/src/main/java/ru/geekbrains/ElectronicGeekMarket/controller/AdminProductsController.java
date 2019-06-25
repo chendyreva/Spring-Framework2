@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-import ru.geekmarket.controller.repr.ProductRepr;
+import ru.geekbrains.ElectronicGeekMarket.controller.repr.ProductRepr;
 import ru.geekbrains.ElectronicGeekMarket.persist.repo.BrandRepository;
 import ru.geekbrains.ElectronicGeekMarket.persist.repo.CategoryRepository;
 import ru.geekbrains.ElectronicGeekMarket.service.ProductService;

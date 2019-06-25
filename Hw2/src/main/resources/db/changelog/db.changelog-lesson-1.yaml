@@ -1,4 +1,4 @@
-atabaseChangeLog:
+databaseChangeLog:
   - logicalFilePath: db/changelog/db.changelog-lesson1.yaml
   - changeSet:
       id: 1

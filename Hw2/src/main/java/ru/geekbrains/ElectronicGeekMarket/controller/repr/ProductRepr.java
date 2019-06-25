@@ -1,4 +1,4 @@
-package ru.geekmarket.controller.repr;
+package ru.geekbrains.ElectronicGeekMarket.controller.repr;
 
 import org.springframework.web.multipart.MultipartFile;
 import ru.geekbrains.ElectronicGeekMarket.persist.model.Brand;

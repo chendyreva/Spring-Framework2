@@ -1,4 +1,4 @@
-package ru.geekmarket.controller.repr;
+package ru.geekbrains.ElectronicGeekMarket.controller.repr;
 
 public class CategoryRepr {
 

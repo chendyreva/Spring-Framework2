@@ -3,7 +3,7 @@ databaseChangeLog:
   - preConditions:
       - runningAs:
           username: root
-          password: root
+          password: MishaCol123666
 
   - include:
       file: db.changelog-lesson-1.yaml
@@ -17,12 +17,13 @@ databaseChangeLog:
             tag: lesson_1
 
   - include:
-      file: db.changelog-lesson-2.yaml
+      file: db.changelog-lesson-2.1.yaml
       relativeToChangelogFile: true
 
   - changeSet:
-      id: lesson_2
+      id: lesson_2.1
       author: nastya_chendyreva
       changes:
         - tagDatabase:
-            tag: lesson_2
+            tag: lesson_2.1
+

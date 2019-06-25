@@ -2,7 +2,7 @@ package ru.geekbrains.ElectronicGeekMarket.persist.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import ru.geekmarket.controller.repr.CategoryRepr;
+import ru.geekbrains.ElectronicGeekMarket.controller.repr.CategoryRepr;
 import ru.geekbrains.ElectronicGeekMarket.persist.model.Category;
 
 import java.util.List;

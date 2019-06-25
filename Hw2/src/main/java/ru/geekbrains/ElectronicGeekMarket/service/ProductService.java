@@ -1,6 +1,7 @@
 package ru.geekbrains.ElectronicGeekMarket.service;
 
-import ru.geekmarket.controller.repr.ProductRepr;
+import ru.geekbrains.ElectronicGeekMarket.controller.repr.ProductRepr;
+
 
 import java.io.IOException;
 import java.util.List;
@@ -9,9 +10,11 @@ public interface ProductService {
 
     List<ProductRepr> findAll();
 
-    ProductRepr findById(Long id);
+    Object findById(Long id);
 
     void deleteById(Long id);
 
     void save(ProductRepr product) throws IOException;
+
+
 }

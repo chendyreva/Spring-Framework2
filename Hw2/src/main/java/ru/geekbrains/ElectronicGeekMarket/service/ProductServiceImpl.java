@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.multipart.MultipartFile;
-import ru.geekmarket.controller.repr.ProductRepr;
+import ru.geekbrains.ElectronicGeekMarket.controller.repr.ProductRepr;
 import ru.geekbrains.ElectronicGeekMarket.persist.model.Picture;
 import ru.geekbrains.ElectronicGeekMarket.persist.model.PictureData;
 import ru.geekbrains.ElectronicGeekMarket.persist.model.Product;
@@ -37,7 +37,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     @Transactional
-    public ProductRepr findById(Long id) {
+    public Object findById(Long id) {
         return new ProductRepr(productRepository.findById(id).get());
     }
 

@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org"
-      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.thymeleaf.org/extras/spring-security ">
 
 <body>
 
@@ -16,7 +17,8 @@
     </div>
     <div class="product-body">
         <p class="product-category" th:text="${categoryName}">Category</p>
-        <h3 class="product-name"><a th:href="@{/product/{id}(id=${productId})}" th:text="${productName}">product name goes here</a></h3>
+        <h3 class="product-name"><a th:href="@{/product/{id}(id=${productId})}" th:text="${productName}">product name
+            goes here</a></h3>
         <h4 class="product-price">
             <span th:text="${price}" th:remove="tag">$980.00</span>
             <del class="product-old-price" th:text="${oldPrice}">$990.00</del>
@@ -27,8 +29,10 @@
             </th:block>
         </div>
         <div class="product-btns">
-            <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
-            <button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
+            <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span>
+            </button>
+            <button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span>
+            </button>
             <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick view</span></button>
         </div>
     </div>
@@ -39,13 +43,15 @@
 <!-- /product -->
 
 <!-- product widget -->
-<div th:fragment="productWidget (productId, imageUrl, productName, categoryName, price, oldPrice)" class="product-widget">
+<div th:fragment="productWidget (productId, imageUrl, productName, categoryName, price, oldPrice)"
+     class="product-widget">
     <div class="product-img">
         <img th:src="@{{image_url}(image_url=${imageUrl})}" alt="">
     </div>
     <div class="product-body">
         <p class="product-category" th:text="${categoryName}">Category</p>
-        <h3 class="product-name"><a th:href="@{/product/{id}(id=${productId})}" th:text="${productName}">product name goes here</a></h3>
+        <h3 class="product-name"><a th:href="@{/product/{id}(id=${productId})}" th:text="${productName}">product name
+            goes here</a></h3>
         <h4 class="product-price">
             <span th:text="${price}" th:remove="tag">$980.00</span>
             <del class="product-old-price" th:text="${oldPrice}">$990.00</del>
@@ -54,12 +60,14 @@
 </div>
 <!-- /product widget -->
 
-<div th:fragment="cartProductWidgetSmall (productId, imageUrl, productName, categoryName, price, qty)" class="product-widget">
+<div th:fragment="cartProductWidgetSmall (productId, imageUrl, productName, categoryName, price, qty)"
+     class="product-widget">
     <div class="product-img">
         <img th:src="@{{image_url}(image_url=${imageUrl})}" alt="">
     </div>
     <div class="product-body">
-        <h3 class="product-name"><a th:href="@{/product/{id}(id=${productId})}" th:text="${productName}">product name goes here</a></h3>
+        <h3 class="product-name"><a th:href="@{/product/{id}(id=${productId})}" th:text="${productName}">product name
+            goes here</a></h3>
         <h4 class="product-price">
             <span class="qty" th:text="qty">1x</span>
             <span th:text="${price}" th:remove="tag">$980.00</span>

@@ -29,10 +29,10 @@ function disconnect() {
 function sendMessage() {
     stompClient.send("/chat_in/send_message", {},
         JSON.stringify({
-            'username' : 'noname',
+            'username' : 'You',
             'message': $("#message-text").val()
         }));
-    $("ul.chat").append(buildMessageHtml('noname', $("#message-text").val(), true));
+    $("ul.chat").append(buildMessageHtml('You', $("#message-text").val(), true));
 }
 
 function buildMessageHtml(username, message, direction) {

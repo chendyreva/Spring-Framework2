@@ -1,0 +1,314 @@
+databaseChangeLog:
+- changeSet:
+    id: 1561724393766-1
+    author: nastya_chendyreva (generated)
+    changes:
+    - addUniqueConstraint:
+        columnNames: name
+        constraintName: UC_BRANDSNAME_COL
+        tableName: brands
+- changeSet:
+    id: 1561724393766-2
+    author: nastya_chendyreva (generated)
+    changes:
+    - addUniqueConstraint:
+        columnNames: name
+        constraintName: UC_CATEGORIESNAME_COL
+        tableName: categories
+- changeSet:
+    id: 1561724393766-3
+    author: nastya_chendyreva (generated)
+    changes:
+    - addUniqueConstraint:
+        columnNames: name
+        constraintName: UC_ROLESNAME_COL
+        tableName: roles
+- changeSet:
+    id: 1561724393766-4
+    author: nastya_chendyreva (generated)
+    changes:
+    - addUniqueConstraint:
+        columnNames: username
+        constraintName: UC_USERSUSERNAME_COL
+        tableName: users
+- changeSet:
+    id: 1561724393766-5
+    author: nastya_chendyreva (generated)
+    changes:
+    - addUniqueConstraint:
+        columnNames: picture_data_id
+        constraintName: UK_ehsu2tyinopypjox1ijxt3g3c
+        tableName: pictures
+- changeSet:
+    id: 1561724393766-6
+    author: nastya_chendyreva (generated)
+    changes:
+    - createIndex:
+        columns:
+        - column:
+            name: product_id
+        - column:
+            name: category_id
+        indexName: IX_null
+        tableName: products_categories
+        unique: true
+- changeSet:
+    id: 1561724393766-7
+    author: nastya_chendyreva (generated)
+    changes:
+    - createIndex:
+        columns:
+        - column:
+            name: user_id
+        - column:
+            name: role_id
+        indexName: IX_null
+        tableName: users_roles
+        unique: true
+- changeSet:
+    id: 1561724393766-8
+    author: nastya_chendyreva (generated)
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: user_id
+        baseTableName: users_roles
+        constraintName: FK2o0jvgh89lemvvo17cbqvdxaa
+        deferrable: false
+        initiallyDeferred: false
+        referencedColumnNames: id
+        referencedTableName: users
+- changeSet:
+    id: 1561724393766-9
+    author: nastya_chendyreva (generated)
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: brand_id
+        baseTableName: products
+        constraintName: FKa3a4mpsfdf4d2y6r8ra3sc8mv
+        deferrable: false
+        initiallyDeferred: false
+        referencedColumnNames: id
+        referencedTableName: brands
+- changeSet:
+    id: 1561724393766-10
+    author: nastya_chendyreva (generated)
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: picture_data_id
+        baseTableName: pictures
+        constraintName: FKe9cv52k04xoy6cj8xy308gnw3
+        deferrable: false
+        initiallyDeferred: false
+        referencedColumnNames: id
+        referencedTableName: pictures_data
+- changeSet:
+    id: 1561724393766-11
+    author: nastya_chendyreva (generated)
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: product_id
+        baseTableName: products_pictures
+        constraintName: FKh3amnci4cl7xcl1al140xw79e
+        deferrable: false
+        initiallyDeferred: false
+        referencedColumnNames: id
+        referencedTableName: products
+- changeSet:
+    id: 1561724393766-12
+    author: nastya_chendyreva (generated)
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: role_id
+        baseTableName: users_roles
+        constraintName: FKj6m8fwv7oqv74fcehir1a9ffy
+        deferrable: false
+        initiallyDeferred: false
+        referencedColumnNames: id
+        referencedTableName: roles
+- changeSet:
+    id: 1561724393766-13
+    author: nastya_chendyreva (generated)
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: picture_id
+        baseTableName: products_pictures
+        constraintName: FKloucf8ggy74nmdej2jmvttvi4
+        deferrable: false
+        initiallyDeferred: false
+        referencedColumnNames: id
+        referencedTableName: pictures
+- changeSet:
+    id: 1561724393766-14
+    author: nastya_chendyreva (generated)
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: category_id
+        baseTableName: products_categories
+        constraintName: FKqt6m2o5dly3luqcm00f5t4h2p
+        deferrable: false
+        initiallyDeferred: false
+        referencedColumnNames: id
+        referencedTableName: categories
+- changeSet:
+    id: 1561724393766-15
+    author: nastya_chendyreva (generated)
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: product_id
+        baseTableName: products_categories
+        constraintName: FKtj1vdea8qwerbjqie4xldl1el
+        deferrable: false
+        initiallyDeferred: false
+        referencedColumnNames: id
+        referencedTableName: products
+- changeSet:
+    id: 1561724393766-16
+    author: nastya_chendyreva (generated)
+    changes:
+    - dropPrimaryKey:
+        constraintName: PRIMARY
+        tableName: products_pictures
+- changeSet:
+    id: 1561724393766-17
+    author: nastya_chendyreva (generated)
+    changes:
+    - dropColumn:
+        columnName: id
+        tableName: products_categories
+- changeSet:
+    id: 1561724393766-18
+    author: nastya_chendyreva (generated)
+    changes:
+    - dropColumn:
+        columnName: id
+        tableName: products_pictures
+- changeSet:
+    id: 1561724393766-19
+    author: nastya_chendyreva (generated)
+    changes:
+    - dropColumn:
+        columnName: id
+        tableName: users_roles
+- changeSet:
+    id: 1561724393766-20
+    author: nastya_chendyreva (generated)
+    changes:
+    - addNotNullConstraint:
+        columnDataType: bigint
+        columnName: brand_id
+        tableName: products
+- changeSet:
+    id: 1561724393766-21
+    author: nastya_chendyreva (generated)
+    changes:
+    - addNotNullConstraint:
+        columnDataType: bigint
+        columnName: category_id
+        tableName: products_categories
+- changeSet:
+    id: 1561724393766-22
+    author: nastya_chendyreva (generated)
+    changes:
+    - addNotNullConstraint:
+        columnDataType: varchar(255)
+        columnName: content_type
+        tableName: pictures
+- changeSet:
+    id: 1561724393766-23
+    author: nastya_chendyreva (generated)
+    changes:
+    - addNotNullConstraint:
+        columnDataType: blob
+        columnName: data
+        tableName: pictures_data
+- changeSet:
+    id: 1561724393766-24
+    author: nastya_chendyreva (generated)
+    changes:
+    - addNotNullConstraint:
+        columnDataType: varchar(255)
+        columnName: name
+        tableName: brands
+- changeSet:
+    id: 1561724393766-25
+    author: nastya_chendyreva (generated)
+    changes:
+    - addNotNullConstraint:
+        columnDataType: varchar(255)
+        columnName: name
+        tableName: categories
+- changeSet:
+    id: 1561724393766-26
+    author: nastya_chendyreva (generated)
+    changes:
+    - addNotNullConstraint:
+        columnDataType: varchar(255)
+        columnName: name
+        tableName: pictures
+- changeSet:
+    id: 1561724393766-27
+    author: nastya_chendyreva (generated)
+    changes:
+    - addNotNullConstraint:
+        columnDataType: varchar(255)
+        columnName: name
+        tableName: roles
+- changeSet:
+    id: 1561724393766-28
+    author: nastya_chendyreva (generated)
+    changes:
+    - addNotNullConstraint:
+        columnDataType: varchar(255)
+        columnName: password
+        tableName: users
+- changeSet:
+    id: 1561724393766-29
+    author: nastya_chendyreva (generated)
+    changes:
+    - addNotNullConstraint:
+        columnDataType: bigint
+        columnName: picture_id
+        tableName: products_pictures
+- changeSet:
+    id: 1561724393766-30
+    author: nastya_chendyreva (generated)
+    changes:
+    - addNotNullConstraint:
+        columnDataType: bigint
+        columnName: role_id
+        tableName: users_roles
+- changeSet:
+    id: 1561724393766-31
+    author: nastya_chendyreva (generated)
+    changes:
+    - addNotNullConstraint:
+        columnDataType: bigint
+        columnName: user_id
+        tableName: users_roles
+- changeSet:
+    id: 1561724393766-32
+    author: nastya_chendyreva (generated)
+    changes:
+    - addNotNullConstraint:
+        columnDataType: varchar(255)
+        columnName: username
+        tableName: users
+- changeSet:
+    id: 1561724393766-33
+    author: nastya_chendyreva (generated)
+    changes:
+    - dropPrimaryKey:
+        tableName: products_categories
+    - addPrimaryKey:
+        columnNames: product_id, category_id
+        tableName: products_categories
+- changeSet:
+    id: 1561724393766-34
+    author: nastya_chendyreva (generated)
+    changes:
+    - dropPrimaryKey:
+        tableName: users_roles
+    - addPrimaryKey:
+        columnNames: user_id, role_id
+        tableName: users_roles
+

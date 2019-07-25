@@ -1,0 +1,29 @@
+databaseChangeLog:
+  - logicalFilePath: db/changelog/db.changelog-master.yaml
+  - preConditions:
+      - runningAs:
+          username: root
+          password: MishaCol123666
+
+  - include:
+      file: db.changelog-lesson-1.yaml
+      relativeToChangelogFile: true
+
+  - changeSet:
+      id: lesson_1
+      author: nastya_chendyreva
+      changes:
+        - tagDatabase:
+            tag: lesson_1
+
+  - include:
+      file: db.changelog-lesson-2.yaml
+      relativeToChangelogFile: true
+
+  - changeSet:
+      id: lesson_2.1
+      author: nastya_chendyreva
+      changes:
+        - tagDatabase:
+            tag: lesson_2.1
+

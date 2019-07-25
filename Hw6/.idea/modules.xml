@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ElectronicGeekMarket/ElectroicGeekBrains.iml" filepath="$PROJECT_DIR$/ElectronicGeekMarket/ElectroicGeekBrains.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ElectronicGeekMarket-chatbot/ElectronicGeekMarket-chatbot.iml" filepath="$PROJECT_DIR$/ElectronicGeekMarket-chatbot/ElectronicGeekMarket-chatbot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ElectronicGeekMarket-eureka/ElectronicGeekMarket-eureka.iml" filepath="$PROJECT_DIR$/ElectronicGeekMarket-eureka/ElectronicGeekMarket-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ElectronicGeekMarket-product-import/ElectronicGeekMarket-product-import.iml" filepath="$PROJECT_DIR$/ElectronicGeekMarket-product-import/ElectronicGeekMarket-product-import.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Hw1.iml" filepath="$PROJECT_DIR$/.idea/Hw1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-demo/rabbitmq-demo.iml" filepath="$PROJECT_DIR$/rabbitmq-demo/rabbitmq-demo.iml" />
+    </modules>
+  </component>
+</project>

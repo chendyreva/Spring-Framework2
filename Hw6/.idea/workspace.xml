@@ -43,125 +43,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.rabbitmq.yml">
+        <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/controller/repr/SignupForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-demo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-demo/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-demo/src/main/java/ru/geekbrains/RabbitMqConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state>
+              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#869#870#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#1013#1014#0" expanded="true" />
-                <element signature="e#1667#1668#0" expanded="true" />
-                <element signature="e#1712#1713#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-demo/src/main/java/ru/geekbrains/RabbitMqDemoApplication.java">
+        <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/test/java/ru/geekbrains/ElectronicGeekMarket/service/TestCartService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="55">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-demo/src/main/java/ru/geekbrains/RabbitMqReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-demo/src/main/java/ru/geekbrains/repr/TextMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-demo/src/main/java/ru/geekbrains/controller/SendMessageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-product-import/src/main/java/ru/geekbrains/productimport/ProductImportApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -192,14 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/flows/register/new-user-success.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/flows/register/new-user-personal.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/flows/register/new-user-confirm.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/flows/register/new-user-basic.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/product.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/product.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/store.html" />
         <option value="$PROJECT_DIR$/src/main/resources/application-redis.properties" />
@@ -243,14 +134,21 @@
         <option value="$PROJECT_DIR$/rabbitmq-demo/src/main/java/ru/geekbrains/controller/SendMessageController.java" />
         <option value="$PROJECT_DIR$/rabbitmq-demo/src/main/java/ru/geekbrains/RabbitMqDemoApplication.java" />
         <option value="$PROJECT_DIR$/rabbitmq-demo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/rest/UserRestController.java" />
+        <option value="$PROJECT_DIR$/ElectronicGeekMarket/src/test/resources/application-test.properties" />
+        <option value="$PROJECT_DIR$/ElectronicGeekMarket/src/test/java/ru/geekbrains/ElectronicGeekMarket/service/TestCartService.java" />
+        <option value="$PROJECT_DIR$/ElectronicGeekMarket/src/test/java/ru/geekbrains/ElectronicGeekMarket/ElectronicGeekMarketRestTests.java" />
+        <option value="$PROJECT_DIR$/ElectronicGeekMarket/src/test/java/ru/geekbrains/ElectronicGeekMarket/MainControllerTests.java" />
+        <option value="$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/service/UserServiceJpaImpl.java" />
+        <option value="$PROJECT_DIR$/ElectronicGeekMarket/src/test/java/ru/geekbrains/ElectronicGeekMarket/service/TestUserService.java" />
+        <option value="$PROJECT_DIR$/ElectronicGeekMarket/src/test/java/ru/geekbrains/ElectronicGeekMarket/controller/TestLoginController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-79" />
-    <option name="y" value="201" />
+    <option name="y" value="161" />
     <option name="width" value="1379" />
-    <option name="height" value="473" />
+    <option name="height" value="474" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -264,6 +162,176 @@
             <path>
               <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="repr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="persist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="persist" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="repr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw1" type="462c0819:PsiDirectoryNode" />
+              <item name="ElectronicGeekMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,7 +397,7 @@
     </option>
     <option name="contentProportion" value="0.11187439" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductImportApplication">
+  <component name="RunManager" selected="JUnit.TestUserService">
     <configuration name="ElectronicGeekMarketApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ElectronicGeekMarket" />
       <extension name="coverage">
@@ -340,6 +408,36 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.geekbrains.ElectronicGeekMarket" />
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.ElectronicGeekMarket.ElectronicGeekMarketApplicationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ElectroicGeekBrains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.ElectronicGeekMarket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.ElectronicGeekMarket" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.ElectronicGeekMarket.MainControllerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ElectroicGeekBrains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.ElectronicGeekMarket.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.ElectronicGeekMarket.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.ElectronicGeekMarket.service.TestUserService" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -469,6 +567,7 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.ElectronicGeekMarketApplicationTest" />
+      <item itemvalue="JUnit.MainControllerTests" />
       <item itemvalue="Maven.Hw1 [liquibase:update]" />
       <item itemvalue="Maven.Hw1 [clean,install,liquibase:diff]" />
       <item itemvalue="Spring Boot.Hw1Application" />
@@ -477,9 +576,12 @@
       <item itemvalue="Spring Boot.ChatbotApplication" />
       <item itemvalue="Spring Boot.ElectronicGeekMarketApplication (1)" />
       <item itemvalue="Spring Boot.ProductImportApplication" />
+      <item itemvalue="JUnit.TestUserService" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestUserService" />
+        <item itemvalue="JUnit.MainControllerTests" />
         <item itemvalue="JUnit.ElectronicGeekMarketApplicationTest" />
       </list>
     </recent_temporary>
@@ -503,7 +605,8 @@
       <workItem from="1562664437419" duration="5495000" />
       <workItem from="1562938478127" duration="5113000" />
       <workItem from="1563011105821" duration="7328000" />
-      <workItem from="1563529082868" duration="2312000" />
+      <workItem from="1563529082868" duration="5005000" />
+      <workItem from="1564057018856" duration="4526000" />
     </task>
     <servers />
   </component>
@@ -511,12 +614,21 @@
     <history-entry file="ElectronicGeekMarketApplicationTest - 2019.06.25 at 16h 55m 18s.xml">
       <configuration name="ElectronicGeekMarketApplicationTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MainControllerTests - 2019.07.24 at 16h 42m 56s.xml">
+      <configuration name="MainControllerTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainControllerTests - 2019.07.25 at 17h 28m 55s.xml">
+      <configuration name="MainControllerTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserService - 2019.07.25 at 18h 15m 18s.xml">
+      <configuration name="TestUserService" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105363000" />
+    <option name="totallyTimeSpent" value="112582000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1107" height="589" extended-state="7" />
+    <frame x="-7" y="-7" width="1107" height="589" extended-state="6" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
@@ -525,11 +637,11 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.32473734" />
+      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.3314231" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.7708333" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49952245" weight="0.8271335" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.72461116" weight="0.21875" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.72461116" visible="true" weight="0.60393876" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -543,7 +655,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.111597374" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="16" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.21006565" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.9343545" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -564,11 +676,11 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.1833811" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.3314231" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.7708333" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49952245" weight="0.79375" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.72461116" weight="0.21875" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49952245" weight="0.8271335" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.72461116" visible="true" weight="0.25164112" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -576,24 +688,24 @@
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.9343545" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.64113784" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.65645516" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.27538884" side_tool="true" weight="0.24791667" />
-      <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32822758" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.111597374" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="16" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.14442013" />
-      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.50127876" side_tool="true" visible="true" weight="0.1642789" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" sideWeight="0.49872124" visible="true" weight="0.1642789" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.9343545" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.49872124" weight="0.1642789" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.50127876" side_tool="true" weight="0.1642789" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,205 +717,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/aspect/AppAspects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/entrypoint.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/Hw1.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-727">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="111" column="1" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#4626#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3616">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-eureka/entrypoint.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-eureka/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-eureka/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-eureka/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-chatbot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-chatbot/entrypoint.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-chatbot/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-chatbot/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-chatbot/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-chatbot/src/main/java/ru/geekbrains/chatbot/service/ChatBotServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-chatbot/src/main/java/ru/geekbrains/chatbot/service/ChatBotService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-chatbot/src/main/java/ru/geekbrains/chatbot/ChatbotApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.0.RELEASE/spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="118" column="36" selection-start-line="118" selection-start-column="36" selection-end-line="118" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-chatbot/src/test/java/ru/geekbrains/chatbot/ChatbotApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-chatbot/src/main/java/ru/geekbrains/chatbot/controller/ChatBotController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-chatbot/src/main/java/ru/geekbrains/chatbot/controller/ChatBotControllerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-chatbot/src/main/java/ru/geekbrains/chatbot/controller/ChatMessage.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heroku-create-apps.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-eureka/src/main/java/ru/geekbarins/eureka/ElectronicGeekMarketEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-eureka/src/test/java/ru/geekbrains/eureka/ElectronicGeekMarketEurekaApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/ElectronicGeekMarketApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-product-import/ElectronicGeekMarket-product-import.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -904,13 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket-product-import/src/main/java/ru/geekbrains/productimport/ProductImportApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -938,10 +844,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/test/java/ru/geekbrains/ElectronicGeekMarket/ElectronicGeekMarketApplicationTest.java" />
+    <entry file="file://$PROJECT_DIR$/rabbitmq-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-demo/src/main/java/ru/geekbrains/RabbitMqDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq-demo/src/main/java/ru/geekbrains/controller/SendMessageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="153">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#740#741#0" expanded="true" />
@@ -950,24 +881,258 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-demo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-demo/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/service/CartServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="-540">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-demo/src/main/java/ru/geekbrains/RabbitMqDemoApplication.java">
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/websocket/ChatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/websocket/ChatMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/websocket/WebSocketConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/persist/model/Brand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/test/java/ru/geekbrains/ElectronicGeekMarket/ElectronicGeekMarketRestTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/test/resources/application-test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/test/java/ru/geekbrains/ElectronicGeekMarket/MainControllerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="121" column="31" selection-start-line="121" selection-start-column="31" selection-end-line="121" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/service/ServiceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/service/CartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/rest/UserRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/controller/repr/CategoryRepr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/service/UserServiceJpaImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="44" column="29" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/service/repr/ProductInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/service/repr/SystemUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/persist/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="99" column="24" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/persist/model/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/test/java/ru/geekbrains/ElectronicGeekMarket/service/TestUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/security/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/controller/repr/CartItemRepr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/persist/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/controller/repr/ProductRepr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/controller/repr/SignupForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/test/java/ru/geekbrains/ElectronicGeekMarket/controller/TestLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/main/java/ru/geekbrains/ElectronicGeekMarket/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ElectronicGeekMarket/src/test/java/ru/geekbrains/ElectronicGeekMarket/service/TestCartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
